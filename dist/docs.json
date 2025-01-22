@@ -1,0 +1,187 @@
+{
+  "api": {
+    "name": "CapacitorShakePlugin",
+    "slug": "capacitorshakeplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "start",
+        "signature": "(options: ShakeStartOptions) => any",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "ShakeStartOptions"
+          }
+        ],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "ShakeStartOptions"
+        ],
+        "slug": "start"
+      },
+      {
+        "name": "show",
+        "signature": "(shakeScreen?: ShakeScreen | undefined) => void",
+        "parameters": [
+          {
+            "name": "shakeScreen",
+            "docs": "",
+            "type": "ShakeScreen | undefined"
+          }
+        ],
+        "returns": "void",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "ShakeScreen"
+        ],
+        "slug": "show"
+      },
+      {
+        "name": "registerUser",
+        "signature": "(options: RegisterUserOptions) => void",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "RegisterUserOptions"
+          }
+        ],
+        "returns": "void",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "RegisterUserOptions"
+        ],
+        "slug": "registeruser"
+      },
+      {
+        "name": "unregisterUser",
+        "signature": "() => void",
+        "parameters": [],
+        "returns": "void",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "unregisteruser"
+      },
+      {
+        "name": "log",
+        "signature": "(options: LogOptions) => void",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "LogOptions"
+          }
+        ],
+        "returns": "void",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "LogOptions"
+        ],
+        "slug": "log"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "ShakeStartOptions",
+      "slug": "shakestartoptions",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "apiKey",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "ShakeScreen",
+      "slug": "shakescreen",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "value",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "RegisterUserOptions",
+      "slug": "registeruseroptions",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "userId",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "LogOptions",
+      "slug": "logoptions",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "logLevel",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [
+            "LogLevel"
+          ],
+          "type": "LogLevel"
+        },
+        {
+          "name": "message",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "LogLevel",
+      "slug": "loglevel",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "value",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
