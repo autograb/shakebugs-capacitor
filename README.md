@@ -16,8 +16,6 @@ npx cap sync
 * [`start(...)`](#start)
 * [`show(...)`](#show)
 * [`registerUser(...)`](#registeruser)
-* [`unregisterUser()`](#unregisteruser)
-* [`log(...)`](#log)
 * [Interfaces](#interfaces)
 
 </docgen-index>
@@ -66,28 +64,6 @@ registerUser(options: RegisterUserOptions) => void
 --------------------
 
 
-### unregisterUser()
-
-```typescript
-unregisterUser() => void
-```
-
---------------------
-
-
-### log(...)
-
-```typescript
-log(options: LogOptions) => void
-```
-
-| Param         | Type                                              |
-| ------------- | ------------------------------------------------- |
-| **`options`** | <code><a href="#logoptions">LogOptions</a></code> |
-
---------------------
-
-
 ### Interfaces
 
 
@@ -110,20 +86,5 @@ log(options: LogOptions) => void
 | Prop         | Type                |
 | ------------ | ------------------- |
 | **`userId`** | <code>string</code> |
-
-
-#### LogOptions
-
-| Prop           | Type                                          |
-| -------------- | --------------------------------------------- |
-| **`logLevel`** | <code><a href="#loglevel">LogLevel</a></code> |
-| **`message`**  | <code>string</code>                           |
-
-
-#### LogLevel
-
-| Prop        | Type                |
-| ----------- | ------------------- |
-| **`value`** | <code>string</code> |
 
 </docgen-api>

@@ -58,34 +58,6 @@
           "RegisterUserOptions"
         ],
         "slug": "registeruser"
-      },
-      {
-        "name": "unregisterUser",
-        "signature": "() => void",
-        "parameters": [],
-        "returns": "void",
-        "tags": [],
-        "docs": "",
-        "complexTypes": [],
-        "slug": "unregisteruser"
-      },
-      {
-        "name": "log",
-        "signature": "(options: LogOptions) => void",
-        "parameters": [
-          {
-            "name": "options",
-            "docs": "",
-            "type": "LogOptions"
-          }
-        ],
-        "returns": "void",
-        "tags": [],
-        "docs": "",
-        "complexTypes": [
-          "LogOptions"
-        ],
-        "slug": "log"
       }
     ],
     "properties": []
@@ -132,47 +104,6 @@
       "properties": [
         {
           "name": "userId",
-          "tags": [],
-          "docs": "",
-          "complexTypes": [],
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "LogOptions",
-      "slug": "logoptions",
-      "docs": "",
-      "tags": [],
-      "methods": [],
-      "properties": [
-        {
-          "name": "logLevel",
-          "tags": [],
-          "docs": "",
-          "complexTypes": [
-            "LogLevel"
-          ],
-          "type": "LogLevel"
-        },
-        {
-          "name": "message",
-          "tags": [],
-          "docs": "",
-          "complexTypes": [],
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "LogLevel",
-      "slug": "loglevel",
-      "docs": "",
-      "tags": [],
-      "methods": [],
-      "properties": [
-        {
-          "name": "value",
           "tags": [],
           "docs": "",
           "complexTypes": [],

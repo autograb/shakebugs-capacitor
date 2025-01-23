@@ -103,6 +103,4 @@ export interface CapacitorShakePlugin {
     start(options: ShakeStartOptions): Promise<void>;
     show(shakeScreen?: ShakeScreen): void;
     registerUser(options: RegisterUserOptions): void;
-    unregisterUser(): void;
-    log(options: LogOptions): void;
 }
