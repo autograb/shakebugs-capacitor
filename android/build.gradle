@@ -19,7 +19,7 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
-    namespace "com.autograb.app"
+    namespace "com.shakebugs"
     compileSdk project.hasProperty('compileSdkVersion') ? rootProject.ext.compileSdkVersion : 35
     defaultConfig {
         minSdkVersion project.hasProperty('minSdkVersion') ? rootProject.ext.minSdkVersion : 23

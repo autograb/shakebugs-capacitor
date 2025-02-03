@@ -1,4 +1,4 @@
-package com.autograb.app;
+package com.shakebugs;
 
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;

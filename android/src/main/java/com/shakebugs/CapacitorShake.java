@@ -1,4 +1,4 @@
-package com.autograb.app;
+package com.shakebugs;
 
 import android.app.Activity;
 
